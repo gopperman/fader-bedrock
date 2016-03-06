@@ -1,3 +1,6 @@
 [submodule "web/app/plugins"]
 	path = web/app/plugins
 	url = https://github.com/gopperman/wordpress-plugins.git
+[submodule "web/app/themes/fader"]
+	path = web/app/themes/fader
+	url = https://github.com/roots/sage.git
