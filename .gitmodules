@@ -1,0 +1,3 @@
+[submodule "web/app/plugins"]
+	path = web/app/plugins
+	url = https://github.com/gopperman/wordpress-plugins.git
