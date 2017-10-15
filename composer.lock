@@ -5,20 +5,19 @@
         "This file is @generated automatically"
     ],
     "hash": "c1a6716c9465beb6cbc45fecd3a86e07",
-    "content-hash": "175acdfd1990a9c09fd3e5239140b5a0",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.23",
+            "version": "v1.0.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e"
+                "reference": "1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/6213d900e92647831f7a406d5c530ea1f3d4360e",
-                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e",
+                "url": "https://api.github.com/repos/composer/installers/zipball/1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988",
+                "reference": "1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988",
                 "shasum": ""
             },
             "require": {
@@ -40,8 +39,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Composer\\Installers\\": "src/"
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -56,12 +55,14 @@
                 }
             ],
             "description": "A multi-framework Composer library installer",
-            "homepage": "http://composer.github.com/installers/",
+            "homepage": "https://composer.github.io/installers/",
             "keywords": [
                 "Craft",
                 "Dolibarr",
                 "Hurad",
+                "ImageCMS",
                 "MODX Evo",
+                "Mautic",
                 "OXID",
                 "SMF",
                 "Thelia",
@@ -103,7 +104,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-01-27 12:54:22"
+            "time": "2016-04-05 11:42:46"
         },
         {
             "name": "johnpbloch/wordpress",
